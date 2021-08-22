@@ -1,0 +1,198 @@
+{
+  "project_info": {
+    "project_number": "657893521689",
+    "project_id": "carwash-a08b9",
+    "storage_bucket": "carwash-a08b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657893521689:android:f72ae808d811eb17e16d88",
+        "android_client_info": {
+          "package_name": "app.carwash.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657893521689-2jotg7daquts9aqm9ljjg8avqfs2ui64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "8b2062e925ad44e89d9234e30b76a64b836f7c82"
+          }
+        },
+        {
+          "client_id": "657893521689-733vtm9gevll6n8pntjkomvmqu5bnvfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "b1cb2e2aa96facfd7f935aceba92d06556fce90b"
+          }
+        },
+        {
+          "client_id": "657893521689-eodkrrrftttj2mkqlvu38i03iancjfha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "d13a85c7cb88dce2f135494969c867e27a07ccbe"
+          }
+        },
+        {
+          "client_id": "657893521689-obovbic98n883m1c4unc029ifese6rmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "34089bebf61a7fa51cc1d4e02bdfd651a116c2e6"
+          }
+        },
+        {
+          "client_id": "657893521689-r1tav0hm97ad4cudc869j9ls97vej1v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "7a1ed6c20bdbe027f075fa42162a8e9e23c40cee"
+          }
+        },
+        {
+          "client_id": "657893521689-sij4t4qnakdmiiujqm7bdpplach9al8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.mobile",
+            "certificate_hash": "befa365343d5c473e568f2c82b9de1c1f7c1654e"
+          }
+        },
+        {
+          "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmaj0H0KKCiUFxz0w-qc99lsx9LlgYeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.procarewashing"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657893521689:android:3ac81131fbba3a8fe16d88",
+        "android_client_info": {
+          "package_name": "app.carwash.procare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657893521689-8fqa4f2bob2eg0sa1g06pqe52c4ds2h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.procare",
+            "certificate_hash": "b1cb2e2aa96facfd7f935aceba92d06556fce90b"
+          }
+        },
+        {
+          "client_id": "657893521689-p8vk37f3rsb36ecbp9qjkh6t79d7rcdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.procare",
+            "certificate_hash": "8b2062e925ad44e89d9234e30b76a64b836f7c82"
+          }
+        },
+        {
+          "client_id": "657893521689-qjqn8b4clgb3a9qvs48b5mj30l472ltr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carwash.procare",
+            "certificate_hash": "befa365343d5c473e568f2c82b9de1c1f7c1654e"
+          }
+        },
+        {
+          "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmaj0H0KKCiUFxz0w-qc99lsx9LlgYeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.procarewashing"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657893521689:android:a8907fb1e660dccee16d88",
+        "android_client_info": {
+          "package_name": "com.app.procarewashing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657893521689-l0ujk25opu7qlolh36he0loc882qlkb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.procarewashing",
+            "certificate_hash": "34089bebf61a7fa51cc1d4e02bdfd651a116c2e6"
+          }
+        },
+        {
+          "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmaj0H0KKCiUFxz0w-qc99lsx9LlgYeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657893521689-04ge3jbj222p3tc0f6ig5s4f3hrepc10.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.procarewashing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -31,6 +31,7 @@ class ServicioPageState extends StateMVC<ServicioPage> {
   @override
   void initState() {
     // _switchValue = widget.switchValue;
+    _con.obtenerVehiculo(context);
     tipoAuto = _con.vehiculoElegido.tamanio!;
     super.initState();
   }

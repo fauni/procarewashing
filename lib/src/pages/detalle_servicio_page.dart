@@ -25,6 +25,7 @@ class _DetalleServicioPageState extends StateMVC<DetalleServicioPage>
 
   @override
   void initState() {
+    _con.obtenerVehiculo(context);
     super.initState();
   }
 

@@ -1,4 +1,5 @@
 // import 'package:easy_dynamic_theme/easy_dynamic_theme.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:global_configuration/global_configuration.dart';
@@ -13,6 +14,7 @@ import 'src/repository/user_repository.dart' as userRepo;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   await GlobalConfiguration().loadFromAsset('configurations');
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) {
