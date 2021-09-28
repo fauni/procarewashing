@@ -46,8 +46,7 @@ class VehiculoController extends ControllerMVC {
     final result = await Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) =>
-            SeleccionarServicioPage(switchValue: null, valueChanged: null),
+        builder: (context) => SeleccionarServicioPage(),
       ),
     );
   }

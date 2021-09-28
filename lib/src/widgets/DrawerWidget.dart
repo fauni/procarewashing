@@ -80,7 +80,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
                           SizedBox(width: 30),
                           Text(
                             'Guest',
-                            style: Theme.of(context).textTheme.title,
+                            style: Theme.of(context).textTheme.bodyText2,
                           ),
                         ],
                       ),
@@ -94,7 +94,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               leading: Image.asset('assets/img/inicio_blue.png'),
               title: Text(
                 'Inicio',
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.overline,
               ),
             ),
             ListTile(
@@ -104,7 +104,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               leading: Image.asset('assets/img/mis_reservas_blue.png'),
               title: Text(
                 'Mis Reservas',
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.overline,
               ),
             ),
             ListTile(
@@ -114,7 +114,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               leading: Image.asset('assets/img/mis_autos_blue.png'),
               title: Text(
                 'Mis Vehículos',
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.overline,
               ),
             ),
             ListTile(
@@ -124,7 +124,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               leading: Image.asset('assets/img/contactanos_blue.png'),
               title: Text(
                 'Contáctanos',
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.overline,
               ),
             ),
             ListTile(
@@ -144,7 +144,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
                 currentUser!.value.verifyEmail != null
                     ? 'Cerrar Sesión'
                     : 'Login',
-                style: Theme.of(context).textTheme.subhead,
+                style: Theme.of(context).textTheme.overline,
               ),
             ),
           ],

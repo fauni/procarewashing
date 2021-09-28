@@ -5,11 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
 class SeleccionarServicioPage extends StatefulWidget {
-  SeleccionarServicioPage(
-      {@required this.switchValue, @required this.valueChanged});
-
-  final bool? switchValue;
-  final ValueChanged? valueChanged;
+  SeleccionarServicioPage();
 
   @override
   State<StatefulWidget> createState() {
@@ -30,9 +26,8 @@ class SeleccionarServicioPageState extends StateMVC<SeleccionarServicioPage> {
   }
   @override
   void initState() {
-    // _switchValue = widget.switchValue;
     _con.obtenerVehiculo(context);
-    tipoAuto = _con.vehiculoElegido.tamanio!;
+    // tipoAuto = _con.vehiculoElegido.tamanio!;
     super.initState();
   }
 

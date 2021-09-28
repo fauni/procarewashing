@@ -1,4 +1,4 @@
-package com.app.procarewashing
+package com.procare.procarewashing
 
 import io.flutter.embedding.android.FlutterActivity
 

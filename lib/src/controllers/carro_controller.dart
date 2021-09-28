@@ -29,7 +29,7 @@ class CarroController extends ControllerMVC {
   VehiculoModelo vehiculomodelo =
       new VehiculoModelo(); // Modelo para crear vehiculo
 
-  String servicio = '';
+  String? servicio = '';
 
   File? image;
   final picker = ImagePicker();
@@ -46,7 +46,7 @@ class CarroController extends ControllerMVC {
     cargarAnios();
     cargarMarcas();
     listarCarrosByCliente();
-    obtenerServicio();
+    // obtenerServicio(); // Habilitar
     // asignarVehiculoElegido();
   }
 
@@ -401,7 +401,10 @@ class CarroController extends ControllerMVC {
     //   },
     // );
     Widget continueButton = FlatButton(
-      child: Text("De acuerdo!"),
+      child: Text(
+        "De acuerdo!",
+        style: TextStyle(color: Theme.of(context).primaryColor),
+      ),
       onPressed: () {
         // setReservaCompleta();
         Navigator.of(context).pop();

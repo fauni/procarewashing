@@ -151,13 +151,19 @@ class ReservaController extends ControllerMVC {
   showAlertDialog(BuildContext context) {
     // set up the buttons
     Widget cancelButton = FlatButton(
-      child: Text("Todavia no!"),
+      child: Text(
+        "Todavia no!",
+        style: TextStyle(color: Theme.of(context).accentColor),
+      ),
       onPressed: () {
         Navigator.of(context).pop();
       },
     );
     Widget continueButton = FlatButton(
-      child: Text("Si"),
+      child: Text(
+        "Si",
+        style: TextStyle(color: Theme.of(context).accentColor),
+      ),
       onPressed: () {
         setReservaCompleta(context);
         Navigator.of(context).pop();

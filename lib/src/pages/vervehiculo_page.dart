@@ -33,7 +33,7 @@ class VerVehiculoPageState extends StateMVC<VerVehiculoPage> {
     super.initState();
     _con.vehiculo = this.widget.routeArgument!.param[0];
 
-    _con.url = _con.url + _con.vehiculo!.foto!;
+    _con.url = _con.url + _con.vehiculo.foto!;
     //print(url);
   }
 
@@ -136,7 +136,7 @@ class VerVehiculoPageState extends StateMVC<VerVehiculoPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Placa: ' + _con.vehiculo!.placa!,
+                                  'Placa: ' + _con.vehiculo.placa!,
                                   style: TextStyle(
                                     color: Theme.of(context).accentColor,
                                     fontSize: 15,
@@ -144,9 +144,9 @@ class VerVehiculoPageState extends StateMVC<VerVehiculoPage> {
                                   ),
                                 ),
                                 Text(
-                                  this._con.vehiculo!.marca! +
+                                  this._con.vehiculo.marca! +
                                       ' - ' +
-                                      this._con.vehiculo!.modelo!,
+                                      this._con.vehiculo.modelo!,
                                   style: TextStyle(
                                     color: Theme.of(context).hintColor,
                                     fontSize: 15,
@@ -167,9 +167,9 @@ class VerVehiculoPageState extends StateMVC<VerVehiculoPage> {
                                       mod.anio!,
                                   onChanged: (modelo) {
                                     //print (modelo.modelo);
-                                    _con.vehiculo!.idModelo = modelo!.id;
-                                    _con.vehiculo!.modelo = modelo.modelo;
-                                    _con.vehiculo!.marca = modelo.marca;
+                                    _con.vehiculo.idModelo = modelo!.id;
+                                    _con.vehiculo.modelo = modelo.modelo;
+                                    _con.vehiculo.marca = modelo.marca;
                                     setState(() {});
                                   },
                                   selectedItem: null,
@@ -235,15 +235,17 @@ class VerVehiculoPageState extends StateMVC<VerVehiculoPage> {
                             isRadio: true,
                             spacing: 10,
                             buttons: ['M', 'L', 'XL'],
-                            selectedButtons: [(_con.vehiculo!.tamanio) as int],
+                            selectedButtons: [
+                              int.parse(_con.vehiculo.tamanio!)
+                            ],
                             onSelected: (index, isSelected) {
                               print('$index fue seleccionado');
                               if (index == 0) {
-                                _con.vehiculo!.idTipo = "1";
+                                _con.vehiculo.idTipo = "1";
                               } else if (index == 1) {
-                                _con.vehiculo!.idTipo = "3";
+                                _con.vehiculo.idTipo = "3";
                               } else {
-                                _con.vehiculo!.idTipo = "5";
+                                _con.vehiculo.idTipo = "5";
                               }
                             },
                             selectedColor: Theme.of(context).primaryColor,

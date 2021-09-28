@@ -100,7 +100,7 @@ Future<Stream<bool>> eliminarVehiculo(String id_vehiculo) async {
 
 Future<String> getVehiculo() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  return await prefs.getString('vehiculo')!;
+  return prefs.getString('vehiculo')!;
 }
 
 Future<void> setVehiculo(String vehiculo) async {

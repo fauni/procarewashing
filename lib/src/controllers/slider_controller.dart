@@ -11,9 +11,7 @@ class SliderController extends ControllerMVC {
   List<Slider> sliders = <Slider>[];
   List<Publicidad> publicidades = <Publicidad>[];
 
-  SliderController(BuildContext contexto) {
-    cargarPublicidad(contexto); // revisar
-  }
+  SliderController();
 
   void cargarPublicidad(BuildContext context) async {
     final Stream<List<Publicidad>> stream = await obtenerPublicidades();

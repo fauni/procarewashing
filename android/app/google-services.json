@@ -82,7 +82,7 @@
               "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.app.procarewashing"
+                "bundle_id": "com.procare.procarewashing"
               }
             }
           ]
@@ -142,7 +142,7 @@
               "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.app.procarewashing"
+                "bundle_id": "com.procare.procarewashing"
               }
             }
           ]
@@ -153,7 +153,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:657893521689:android:a8907fb1e660dccee16d88",
         "android_client_info": {
-          "package_name": "com.app.procarewashing"
+          "package_name": "com.procare.procarewashing"
         }
       },
       "oauth_client": [
@@ -161,7 +161,7 @@
           "client_id": "657893521689-l0ujk25opu7qlolh36he0loc882qlkb1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.app.procarewashing",
+            "package_name": "com.procare.procarewashing",
             "certificate_hash": "34089bebf61a7fa51cc1d4e02bdfd651a116c2e6"
           }
         },
@@ -186,7 +186,7 @@
               "client_id": "657893521689-lft75qsune34b479okh87eg901dpg0hu.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.app.procarewashing"
+                "bundle_id": "com.procare.procarewashing"
               }
             }
           ]

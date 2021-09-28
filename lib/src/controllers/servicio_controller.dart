@@ -37,7 +37,7 @@ class ServicioController extends ControllerMVC {
     // listarServiciosMotos();
   }
 
-  void obtenerVehiculo(BuildContext context) async {
+  Future<void> obtenerVehiculo(BuildContext context) async {
     String vehiculo_json = await getVehiculo();
     if (vehiculo_json == null) {
       Navigator.pop(context);

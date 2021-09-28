@@ -17,8 +17,15 @@ class HomeSliderWidget extends StatefulWidget {
 class _HomeSliderWidgetState extends StateMVC<HomeSliderWidget> {
   int _current = 0;
   late SliderController _con;
-  _HomeSliderWidgetState() : super() {
+  _HomeSliderWidgetState() : super(SliderController()) {
     _con = controller as SliderController;
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    _con.cargarPublicidad(context);
+    super.initState();
   }
 
   @override
@@ -100,7 +107,7 @@ class _HomeSliderWidgetState extends StateMVC<HomeSliderWidget> {
                                     '', //publicidad.detallePublicidad,
                                     style: Theme.of(context)
                                         .textTheme
-                                        .title!
+                                        .subtitle1!
                                         .merge(TextStyle(height: 1)),
                                     textAlign: TextAlign.end,
                                     overflow: TextOverflow.fade,

@@ -17,7 +17,7 @@ class VerVehiculoController extends ControllerMVC {
   GlobalKey<ScaffoldState>? scaffoldKey;
   bool loading = false;
   bool loadingV = false;
-  VehiculoA? vehiculo = VehiculoA();
+  VehiculoA vehiculo = VehiculoA();
   Vehiculo vehiculoEdit = Vehiculo();
   List<VehiculoModelo> modelos = [];
 
@@ -55,8 +55,8 @@ class VerVehiculoController extends ControllerMVC {
       String fileName = this.image!.path.split("/").last;
       newVehiculo!.foto = fileName;
       newVehiculo.imgFile = base64Image;
-      newVehiculo.id = this.vehiculo!.id;
-      newVehiculo.placa = this.vehiculo!.placa;
+      newVehiculo.id = this.vehiculo.id;
+      newVehiculo.placa = this.vehiculo.placa;
       // newVehiculo.idCliente = currentUser.value.email;
 
       if (newVehiculo.placa == null) {
@@ -71,7 +71,7 @@ class VerVehiculoController extends ControllerMVC {
         var vehiculoResp = await modificarFotoVehiculo(newVehiculo);
         this.url =
             '${GlobalConfiguration().getString('img_carros_url_wash')}/${newVehiculo.foto}';
-        this.vehiculo!.foto = newVehiculo.foto;
+        this.vehiculo.foto = newVehiculo.foto;
         this.loading = false;
         this.scaffoldKey?.currentState?.showSnackBar(SnackBar(
               content: Text('Se agregó correctamente'),
